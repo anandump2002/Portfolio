@@ -212,7 +212,8 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image img {
-  width: 500px;
+  width: 100%
+  max-width: 450px;
   height: auto;
   margin-top: 5rem;
   margin-left: 6rem;
@@ -224,12 +225,12 @@ header .navbar ul li a:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .home .content h2 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 800;
   color: #002057;
 }
 .home .content h2 span {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 800;
   color: #ff7b00;
 }
@@ -484,7 +485,7 @@ header .navbar ul li a:hover {
 }
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
