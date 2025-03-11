@@ -213,7 +213,7 @@ header .navbar ul li a:hover {
 }
 .home .image img {
   width: 100%;
-  max-width: 700px;
+  max-width: 450px;
   height: auto;
   margin-top: 5rem;
   margin-left: 6rem;
@@ -368,7 +368,7 @@ header .navbar ul li a:hover {
 .about .row .image img {
   margin: 1rem;
   width: auto;
-  height: 400px;
+  height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   transition: 0.3s;
