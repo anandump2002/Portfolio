@@ -368,7 +368,8 @@ header .navbar ul li a:hover {
 .about .row .image img {
   margin: 1rem;
   width: auto;
-  height: auto;
+  height: 100%;
+  max-height: 350px;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   transition: 0.3s;
