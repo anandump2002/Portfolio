@@ -212,7 +212,7 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image img {
-  width: 100%
+  width: 100%;
   max-width: 450px;
   height: auto;
   margin-top: 5rem;
