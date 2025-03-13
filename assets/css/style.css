@@ -766,12 +766,94 @@ header .navbar ul li a:hover {
 }
 /* work section ends */
 
-/* experience section starts */
+/* Certifications section starts */
+/* Certifications Section */
+.certifications {
+  padding: 50px 10%;
+  background-color: #f8f9fa; /* Light background */
+  text-align: center;
+}
+
+.certifications .heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0d0d0d;
+}
+
+.certifications .heading i {
+  color: #007bff; /* Icon color */
+  margin-right: 10px;
+}
+
+.certifications .heading span {
+  color: #007bff; /* Highlighted text */
+}
+
+/* Grid Layout for Certificates */
+.certifications .box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 certificates per row */
+  gap: 50px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Individual Certificate Box */
+.certifications .box {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.certifications .box:hover {
+  transform: scale(1.05);
+}
+
+.certifications .box .image img {
+  width: 80%;
+  height: auto;
+  border-bottom: 2px solid #007bff;
+}
+
+.certifications .box .content {
+  padding: 15px;
+}
+
+.certifications .box .content h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0 0;
+}
 
 
 
+/* certifications media queries starts */
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .certifications {
+        padding: 30px 5%;
+    }
 
-/* experience media queries ends */
+    .certifications .heading {
+        font-size: 1.8rem;
+    }
+
+    .certifications .box-container {
+        grid-template-columns: 1fr; /* Stacks items in one column */
+    }
+
+    .certifications .box {
+        width: 100%; /* Full width */
+    }
+
+    .certifications .box .content h4 {
+        font-size: 1rem;
+    }
+}
+/* Certifications media queries ends */
 /* experience section ends */
 
 /* contact section starts */
