@@ -841,6 +841,11 @@ header .navbar ul li a:hover {
         font-size: 2.5rem;
     }
 
+    .certifications .heading i {
+      color: #007bff; /* Icon color */
+      margin-right: 10px;
+    }
+
     .certifications .box-container {
         grid-template-columns: 1fr; /* Stacks items in one column */
     }
