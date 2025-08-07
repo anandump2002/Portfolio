@@ -138,7 +138,7 @@ header .navbar ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
   }
   header .navbar {
     position: fixed;
