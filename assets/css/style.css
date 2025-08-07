@@ -346,6 +346,10 @@ header .navbar ul li a:hover {
   .home .image img {
     margin-top: 1rem;
   }
+  .home .content h2 {
+    font-size: 2.5rem;
+  }
+  
   .home .content p {
     font-size: 2.2rem;
   }
